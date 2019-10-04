@@ -19,6 +19,8 @@ class famille {
         }
     }
     public function getLibelle() {
-        if($this->libelle)
-    }
+        if($this->libelle){
+            return $this->libelle;
+    }else{
+            "";
 }
